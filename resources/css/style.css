@@ -1,17 +1,28 @@
 html {
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
-.header {
+h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#header {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.divider {
+#divider {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+footer {
+  text-align: left;
 }
