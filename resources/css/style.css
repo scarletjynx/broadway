@@ -9,11 +9,30 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
 #header {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#header a {
+  font-size: 18px;
+  color: white;
 }
 
 #divider {
@@ -23,6 +42,21 @@ h1 {
   background-size: cover;
 }
 
+#divider h3 {
+  color: white;
+}
+
 footer {
   text-align: left;
+  background-color: dimgray;
+  color: white;
+}
+
+footer a {
+  font-size: 18px;
+  color: white;
+}
+
+#copyright {
+  font-size: 11px;
 }
